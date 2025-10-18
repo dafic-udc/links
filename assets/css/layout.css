@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: #234d52;
+}
+
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 40em;
+  border: 5px solid #234d52;
+  border-radius: 15px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #57C785, #326E76);
+}
