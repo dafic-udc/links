@@ -6,11 +6,16 @@ $img-spacing: 40px;
 
     .links {
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         li.link {
 
+            max-width: 95%;
             padding: 0;
             list-style: none;
-            margin: 10px 0;
+            margin: 5px 0;
 
             &:last-child {
                 margin-bottom: 20px;
@@ -22,7 +27,8 @@ $img-spacing: 40px;
                 align-items: center;
 
                 width: 30em;
-                height: 4em;
+                max-width: 100%;
+                min-height: 4em;
                 padding: 0.5em 1em;
                 border: 2px solid darken($color-dafic, 10%);
                 border-radius: 50px;
@@ -33,7 +39,9 @@ $img-spacing: 40px;
 
 
 
-                &:hover, &:active, &:focus {
+                &:hover,
+                &:active,
+                &:focus {
                     color: darken($color-dafic, 20%);
                     text-decoration: underline;
                 }
@@ -45,14 +53,14 @@ $img-spacing: 40px;
                 .link-icon {
                     width: $img-spacing;
                     height: $img-spacing;
-                    margin: 0 auto;
+                    margin-right: 10px;
                 }
 
                 .link-text {
                     display: block;
 
                     width: 100%;
-                    padding-right: $img-spacing;
+                    padding-right: 30px;
                     margin: 0 auto;
                     font-size: 1.2rem;
                     font-weight: bold;
@@ -60,13 +68,41 @@ $img-spacing: 40px;
                     text-align: center;
                 }
 
-
             }
-
-
 
         }
 
+    }
+}
+
+@media (max-width: 500px) {
+
+    .category {
+
+        .links {
+
+            li.link {
+
+                a {
+                    .link-icon {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 5px;
+                    }
+
+
+                    .link-text {
+                        padding-right: 25px;
+                        font-size: 1rem;
+                    }
+
+
+                }
+
+            }
+
+        }
 
     }
+
 }
