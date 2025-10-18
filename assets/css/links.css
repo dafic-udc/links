@@ -1,7 +1,14 @@
+.category .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .category .links li.link {
+  max-width: 95%;
   padding: 0;
   list-style: none;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .category .links li.link:last-child {
@@ -13,7 +20,8 @@
   justify-content: flex-start;
   align-items: center;
   width: 30em;
-  height: 4em;
+  max-width: 100%;
+  min-height: 4em;
   padding: 0.5em 1em;
   border: 2px solid #234d52;
   border-radius: 50px;
@@ -34,16 +42,28 @@
 .category .links li.link a .link-icon {
   width: 40px;
   height: 40px;
-  margin: 0 auto;
+  margin-right: 10px;
 }
 
 .category .links li.link a .link-text {
   display: block;
   width: 100%;
-  padding-right: 40px;
+  padding-right: 30px;
   margin: 0 auto;
   font-size: 1.2rem;
   font-weight: bold;
   color: #326e76;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .category .links li.link a .link-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  .category .links li.link a .link-text {
+    padding-right: 25px;
+    font-size: 1rem;
+  }
 }
