@@ -6,6 +6,13 @@
 #      url: https://example.com
 #      icon: url-to-icon
 
+Eventos:
+  name: "📅 Eventos 📅"
+  links:
+    - text: "[GPUL] 21/10/2025 - Introdución ao control de versións con Git"
+      url: "https://gpul.org/eventos/2025/intro-git"
+      icon: "https://gpul.org/_astro/logo-small.DA8wWUJz_Z1fdg8v.svg"
+
 Destacado:
   name: "⭐ Destacado ⭐"
   links:
