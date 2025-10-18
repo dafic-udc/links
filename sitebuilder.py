@@ -20,12 +20,14 @@ TEMPLATES_DIR = SITE_DIR / 'templates'
 # Assets
 ASSETS_DIR = SITE_DIR / 'assets'
 IMG_DIR = ASSETS_DIR / 'img'  # Images
+SCRIPTS_DIR = ASSETS_DIR / 'js'  # JavaScript
 STYLES_DIR = ASSETS_DIR / 'styles'  # Styles
 
 # Distribution
 DIST_DIR = SCRIPT_DIR / 'dist'
 DIST_ASSETS_DIR = DIST_DIR / 'assets'
 DIST_IMG_DIR = DIST_ASSETS_DIR / 'img'
+DIST_SCRIPTS_DIR = DIST_ASSETS_DIR / 'js'
 DIST_STYLES_DIR = DIST_ASSETS_DIR / 'css'
 
 
@@ -70,6 +72,8 @@ def main():
 
     # Copy static assets
     copy_assets(IMG_DIR, DIST_IMG_DIR)  # Copy images
+    copy_assets(SCRIPTS_DIR, DIST_SCRIPTS_DIR)  # Copy scripts
+    
 
 
 if __name__ == "__main__":

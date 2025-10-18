@@ -30,6 +30,13 @@ body {
 
         background: linear-gradient(to right, #57C785, #326E76);
     }
+
+    footer {
+        a {
+            color: white;
+            text-decoration: underline;
+        }
+    }
 }
 
 @media (max-width: 500px) {
