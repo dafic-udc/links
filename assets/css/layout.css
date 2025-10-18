@@ -26,3 +26,15 @@ body main {
   margin: 0 auto;
   background: linear-gradient(to right, #57C785, #326E76);
 }
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 350px) {
+  h2 {
+    font-size: small;
+  }
+}
