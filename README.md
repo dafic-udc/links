@@ -9,7 +9,13 @@
 
 ## Descrición
 
+<div align="center" width="150px">
+
 Enlaces de interese para o alumnado da Facultade de Informática da Coruña (FIC).
+
+<img src="./site/assets/img/qrcode.svg" width="150px">
+
+</div>
 
 ## Licenza
 
