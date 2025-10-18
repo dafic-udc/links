@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DAFIC - Welcome to da FIC</title>
+	<link rel="icon" type="image/png" href="/assets/img/Logo_DAFIC_redondo.svg">
+	<link rel="stylesheet" type="text/css" href="/assets/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/links.css">
+</head>
+
+<body>
+	<main id="links">
+		<h1>Links da FIC</h1>
+		<br>
+
+		{% for category in data -%}
+		<section class="category">
+			<h2>{{ data[category].name }}</h2>
+			<ul class="links">
+				{% for link in data[category].links %}
+				<li class="link">
+					<a href="{{ link.url }}" target="_blank">
+						<img class="link-icon" src="{{ link.icon }}" alt=" ">
+						<span class="link-text">{{ link.text }}</span>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+			
+		</section>
+
+	{% endfor %}
+
+    </main>
+
+</body>
+
+</html>

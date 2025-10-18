@@ -1,0 +1,205 @@
+# Example:
+# category-id:
+#   name: Category Title
+#   links:
+#    - text: Link Name
+#      url: https://example.com
+#      icon: url-to-icon
+
+Destacado:
+  name: "⭐ Destacado ⭐"
+  links:
+    - text: "Manual de Supervivencia da FIC"
+      url: "https://www.fic.udc.es/sites/default/files/documentos/manual_de_supervivencia_de_la_fic.pdf"
+      icon: "/assets/img/icons/file-description.svg"
+
+    - text: "PAT (Plan de Acción Tutorial)"
+      url: "https://udcgal.sharepoint.com/sites/PATFICUDC/Documentos%20compartidos/Forms/AllItems.aspx"
+      icon: "/assets/img/icons/info-circle.svg"
+
+    - text: "Repositorio de Exámenes"
+      url: "https://udcgal.sharepoint.com/:f:/s/Rep.EstudiantesFICsloestudiantes/EnjrP28jiWdOmtGDN5BxV2kBG0J0_Oe7LaWB3u59hMfGSQ?e=keOnQl"
+      icon: "/assets/img/icons/pencil.svg"
+
+FIC:
+  name: "👨‍💻 La FIC 👨‍💻"
+  links:
+    - text: "Web"
+      url: "https://www.fic.udc.es/"
+      icon: "/assets/img/icons/browser.svg"
+
+    - text: "Calendarios"
+      url: "https://www.fic.udc.es/gl/calendarios"
+      icon: "/assets/img/icons/calendar.svg"
+
+    - text: "Telegram"
+      url: "https://t.me/+LHa3QApmGskyNDFk"
+      icon: "/assets/img/icons/brand-telegram.svg"
+
+    - text: "Bluesky"
+      url: "https://bsky.app/profile/fic-udc.bsky.social"
+      icon: "/assets/img/icons/brand-bluesky.svg"
+
+    - text: "X/Twitter"
+      url: "https://twitter.com/FIC_UDC"
+      icon: "/assets/img/icons/brand-x.svg"
+
+Cafeteria:
+  name: "☕️ CaFICtería ☕️"
+  links:
+    - text: "Carta"
+      url: "https://quecarta.com/cafeteria-fic-"
+      icon: "/assets/img/caficteria.jfif"
+
+    - text: "Menú del día"
+      url: "https://t.me/CafeteriaFIC"
+      icon: "/assets/img/caficteria.jfif"
+
+UDC:
+  name: "🏛️ Universidade da Coruña 🏛️"
+  links:
+    - text: "Web"
+      url: "https://www.udc.es/"
+      icon: "/assets/img/icons/browser.svg"
+
+    - text: "Guías Docentes"
+      url: "https://academica.udc.gal/doa/consultaPublica/look[conpub]InicioPubGuiaDocAs"
+      icon: "/assets/img/icons/book.svg"
+
+    - text: "Servizos UDC"
+      url: "https://servizos.udc.es/"
+      icon: "/assets/img/icons/settings.svg"
+
+    - text: "Espazos UDC"
+      url: "https://espazos.udc.es/"
+      icon: "/assets/img/icons/user.svg"
+
+    - text: "Secretaría Virtual"
+      url: "https://www.udc.es/es/estudantes/secretaria-virtual/"
+      icon: "/assets/img/icons/currency-euro.svg"
+
+    - text: "AxudaTIC"
+      url: "https://axudatic.udc.gal/"
+      icon: "/assets/img/icons/tool.svg"
+
+GEI:
+  name: "💻 GEI 💻"
+  links:
+    - text: "Horarios e Exames - GEI"
+      url: "https://www.fic.udc.es/gl/horarios-e-exames"
+      icon: "/assets/img/icons/table.svg"
+    - text: "1º GEI UDC"
+      url: "https://chat.whatsapp.com/KT0eYgATzwJ72oOat2A2KC"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "2º GEI UDC"
+      url: "https://chat.whatsapp.com/HdslMHAsRkCAc4x69Ds7kY"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "3º GEI UDC"
+      url: "https://chat.whatsapp.com/Bi7bxLRD4C98GAmqJx4CQF"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "PDF Materias por menciones"
+      url: "https://udcgal.sharepoint.com/sites/DAFIC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FDAFIC%2FDocumentos%20compartidos%2FDocumentos%20Compartidos%2FMaterias%5Fmenciones%5Fing%5Finformatica%2Epdf&parent=%2Fsites%2FDAFIC%2FDocumentos%20compartidos%2FDocumentos%20Compartidos&p=true&ga=1"
+      icon: "/assets/img/icons/file-description.svg"
+    - text: "Wuolah - GEI"
+      url: "https://wuolah.com/udc-facultad-informatica/grado-ingenieria-informatica?referral=ifmaipu4"
+      icon: "https://wuolah.com/favicon-32x32.png"
+
+GCED:
+  name: "📊 GCED 📊"
+  links:
+    - text: "Horarios e Exames - GCED"
+      url: "https://www.fic.udc.es/gl/horarios-e-exames-gced"
+      icon: "/assets/img/icons/table.svg"
+    - text: "1º GCED UDC"
+      url: "https://chat.whatsapp.com/C9DHgS5BVdOBYriQuU4ujK"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "2º GCED UDC"
+      url: "https://chat.whatsapp.com/EgmMRS5PpoJDRjnb7igevO"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "4º GCED UDC"
+      url: "https://chat.whatsapp.com/ISu03peqplHEGYTziR6QFL"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "Wuolah - GCED"
+      url: "https://wuolah.com/udc-facultad-informatica/grado-ciencia-ingenieria-datos?referral=ifmaipu4"
+      icon: "https://wuolah.com/favicon-32x32.png"
+
+GIA:
+  name: "🤖 GIA 🤖"
+  links:
+    - text: "Horarios e Exames - GIA"
+      url: "https://www.fic.udc.es/gl/horarios-y-examenes-0"
+      icon: "/assets/img/icons/table.svg"
+    - text: "1º GIA UDC"
+      url: "https://chat.whatsapp.com/D7jSWPplhrfJeNOn6v7CPA"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "2º GIA UDC"
+      url: "https://chat.whatsapp.com/DrAEq6ztglV3dTenyXbnpt"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "Wuolah - GIA"
+      url: "https://wuolah.com/udc-facultad-informatica/grado-inteligencia-artificial?referral=ifmaipu4"
+      icon: "https://wuolah.com/favicon-32x32.png"
+
+Másteres:
+  name: "📚 Másteres 📚"
+  links:
+    - text: "Másteres de la FIC"
+      url: "https://fic.udc.es/gl/outros-mestrados"
+      icon: "/assets/img/icons/directions.svg"
+    - text: "MUEI 25/26"
+      url: "https://chat.whatsapp.com/Bfrl9LhXP7JFApqt8rjh72"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "MUNICS UDC - UVigo 25/27"
+      url: "https://chat.whatsapp.com/GEWvyPBA6uLIeypmsmaY4C"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+    - text: "Máster en Patrimonio Cultural Digital 25/27"
+      url: "https://chat.whatsapp.com/HQbUZxRu3vy36YQ943EdUN"
+      icon: "/assets/img/icons/brand-whatsapp.svg"
+
+Recursos:
+  name: "💡 Recursos 💡"
+  links:
+    - text: "MEGA"
+      url: "https://mega.nz/folder/F5YXUahC#XygCDmb-l05BZQFJWWvJoQ"
+      icon: "https://mega.nz/favicon.ico"
+
+Comunidades:
+  name: "👥 Comunidades 👥"
+  links:
+    - text: "DAFIC"
+      url: "https://dafic.org/"
+      icon: "https://dafic.org/assets/img/Logo_DAFIC_redondo.svg"
+    - text: "GPUL"
+      url: "https://gpul.org/"
+      icon: "https://gpul.org/_astro/logo-small.DA8wWUJz_Z1fdg8v.svg"
+    - text: "Hello, Sisters!"
+      url: "https://hellosisters.github.io/"
+      icon: "https://hellosisters.github.io/img/favicon.png"
+    - text: "RITSI"
+      url: "https://ritsi.org/"
+      icon: "https://ritsi.org/wp-content/uploads/2018/03/cropped-favicon-192x192.png"
+
+Miscelánea:
+  name: "📦 Miscelánea 📦"
+  links:
+    - text: "Pokémon GO FIC"
+      url: "https://chat.whatsapp.com/BEh4fO5TO9iBQYG7rLcmn4"
+      icon: "/assets/img/icons/pokeball.svg"
+
+Contacto:
+  name: "📧 Contacto 📧"
+  links:
+    - text: "Instagram"
+      url: "https://www.instagram.com/representantes.fic/"
+      icon: "/assets/img/icons/brand-instagram.svg"
+
+
+
+
+
+
+
+
+
+
+
+

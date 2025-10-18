@@ -1,0 +1,52 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Escucha cambios en la rama principal
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest  # Elige un entorno Ubuntu
+
+    steps:
+    # Paso 1: Clonar el repositorio
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # Paso 2: Configurar Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12  # Elige la versión de Python
+
+    # Paso 3: Instalar dependencias de Python
+    - name: Install Dependencies
+      run: |
+        pip install -r requirements.txt
+
+    # Paso 4: Generar el sitio
+    - name: Generate Site
+      run: |
+        python sitebuilder.py
+
+    # Paso 5: Desplegar a GitHub Pages
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+
+    # Paso 6: Guardar la carpeta dist como artefacto
+    - name: Upload dist folder as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-dist
+        path: dist/
+
+    # Paso 7: Desplegar en GitHub Pages
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+      
