@@ -39,6 +39,10 @@ FIC:
       url: "https://www.fic.udc.es/gl/calendarios"
       icon: "./assets/img/icons/calendar.svg"
 
+    - text: "Guías Docentes"
+      url: "https://www.fic.udc.es/es/guias-docentes"
+      icon: "./assets/img/icons/book.svg"
+
     - text: "Telegram"
       url: "https://t.me/+LHa3QApmGskyNDFk"
       icon: "./assets/img/icons/brand-telegram.svg"
@@ -68,10 +72,6 @@ UDC:
     - text: "Web"
       url: "https://www.udc.es/"
       icon: "./assets/img/icons/browser.svg"
-
-    - text: "Guías Docentes"
-      url: "https://academica.udc.gal/doa/consultaPublica/look[conpub]InicioPubGuiaDocAs"
-      icon: "./assets/img/icons/book.svg"
 
     - text: "Servizos UDC"
       url: "https://servizos.udc.es/"
