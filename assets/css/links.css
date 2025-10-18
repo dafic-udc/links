@@ -56,6 +56,11 @@
   text-align: center;
 }
 
+#email img {
+  width: 50px;
+  height: 50px;
+}
+
 @media (max-width: 500px) {
   .category .links li.link a .link-icon {
     width: 30px;

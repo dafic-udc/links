@@ -27,6 +27,11 @@ body main {
   background: linear-gradient(to right, #57C785, #326E76);
 }
 
+body footer a {
+  color: white;
+  text-decoration: underline;
+}
+
 @media (max-width: 500px) {
   h2 {
     font-size: medium;
