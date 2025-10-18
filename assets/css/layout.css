@@ -32,6 +32,12 @@ body footer a {
   text-decoration: underline;
 }
 
+body footer img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
 @media (max-width: 500px) {
   h2 {
     font-size: medium;
