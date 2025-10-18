@@ -190,7 +190,7 @@ Contacto:
   links:
     - text: "Instagram"
       url: "https://www.instagram.com/representantes.fic/"
-      icon: "/assets/img/icons/brand-instagram.svg"
+      icon: "./assets/img/icons/brand-instagram.svg"
 
 
 
