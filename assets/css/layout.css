@@ -32,10 +32,10 @@ body footer a {
   text-decoration: underline;
 }
 
-body footer img {
+body footer #qrcode {
   width: 150px;
   height: 150px;
-  margin-top: 10px;
+  margin: 10px auto;
 }
 
 @media (max-width: 500px) {
