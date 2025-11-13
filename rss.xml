@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Eventos DAFIC</title>
+      <link>https://dafic.org/links/</link>
+      <description>Eventos creados por DAFIC</description>
+      <language>es-es</language>
+	  <!-- Leer esto para el formato -->
+      <docs>https://www.rssboard.org/rss-specification</docs>
+      <generator>script de python</generator>
+	  <image>
+		<link>https://dafic.org/links/</link>
+		<url>https://avatars.githubusercontent.com/u/202398000?s=200</url>
+		<title>Eventos DAFIC</title>
+      </image>
+	  <!-- Se supone también que XML es fácil de escribir-->
+      <atom:link href="https://dafic.org/links/rss.xml" rel="self" type="application/rss+xml"/>
+	  
+	  
+	  
+	  <!-- Añadir más entradas aquí-->
+	  <item>
+         <title>[GPUL] 18/11/2025 - Cómo salir de VIM y alguna cosa más</title>
+		 <link>https://gpul.org/eventos/2025/intro-vim/</link>
+		 <!-- dentro de CDATA puedes meter un mini-html -->
+         <description><![CDATA[<img src="https://gpul.org/media/eventos/2025/intro-vim.png">&#10;Aprenderemos trucos y atajos indispensables para usar Vim. Desde los conceptos básicos hasta los trucos avanzados que te harán sentir como un verdadero maestro de la productividad. Tocaremos un poco de todo, tanto si estás interesado en aprender Vim de cero como si llevas un tiempo con él y quieres entender mejor los conceptos (y algún truquillo).]]></description>
+         <pubDate>10 Nov 2025 18:07 +0100</pubDate>
+         <guid isPermaLink="false">f9280524-9f63-440b-8cdf-39d11811eac0</guid>
+      </item>
+      <item>
+         <title>[GPUL] 13/11/2025 - Iniciación a Blender: aprende a utilizarlo como un profesional</title>
+		 <link>https://gpul.org/eventos/2025/blender/</link>
+         <description><![CDATA[<img src="https://gpul.org/media/eventos/2025/blender.png">&#10;Blender es un conocido programa de diseño 3D que además es software libre. Se trata de una versátil herramienta que permite modelar en 3D, pero también texturizar, esculpir, animar e incluso editar vídeos o generar diseños de manera paramétrica. Esta charla se centrará en su uso básico. Aprenderas cómo moverte por el programa y qué puedes hacer con él, centrándonos en el modelado.]]></description>
+         <pubDate>10 Nov 2025 18:06 +0100</pubDate>
+         <guid isPermaLink="false">0429874a-6896-4f84-847a-623721a29131</guid>
+      </item>
+	  <item>
+         <title>[DAFIC] 11/11/2025 - Partida I D&amp;D</title>
+         <description><![CDATA[<img src="https://dafic.org/actividades/assets/img/poster/cartel_partida_I_d%26d.png">]]></description>
+         <pubDate>10 Nov 2025 18:05 +0100</pubDate>
+         <guid isPermaLink="false">538938ac-1738-43fc-b198-e62eb31f033b</guid>
+      </item>
+	  <!-- También se pueden borrar-->
+	  </channel>
+</rss>
