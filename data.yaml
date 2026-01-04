@@ -9,14 +9,8 @@
 Eventos:
   name: "📅 Eventos 📅"
   links:
-    - text: "[DAFIC] 11/10/2025 - Partida I D&D"
-      url: "https://dafic.org/actividades/assets/img/poster/cartel_partida_I_d&d.png"
-      icon: "https://dafic.org/assets/img/Logo_DAFIC_redondo.svg"
-    - text: "[GPUL] 13/11/2025 - Iniciación a Blender: aprende a utilizarlo como un profesional"
-      url: "https://gpul.org/eventos/2025/blender/"
-      icon: "https://gpul.org/_astro/logo-small.DA8wWUJz_Z1fdg8v.svg"
-    - text: "[GPUL] 18/11/2025 - Cómo salir de VIM y alguna cosa más"
-      url: "https://gpul.org/eventos/2025/intro-vim/"
+    - text: "[GPUL] 27/02/2026 - HackUDC"
+      url: "https://hackudc.gpul.org/"
       icon: "https://gpul.org/_astro/logo-small.DA8wWUJz_Z1fdg8v.svg"
 
 Destacado:
