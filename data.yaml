@@ -34,7 +34,7 @@ Destacado:
 
     - text: "[TFE] Premios Paula Montoto Castelao curso 2025/2026"
       url: "https://udcgal.sharepoint.com/sites/catedra-denodo"
-      icon: "https://www.denodo.com/sites/default/files/favicon.ico"
+      icon: "./assets/img/icons/award.svg"
 
 FIC:
   name: "👨‍💻 La FIC 👨‍💻"
