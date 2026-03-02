@@ -8,11 +8,7 @@
 
 Eventos:
   name: "📅 Eventos 📅"
-  links:
-    - text: "[GPUL] 27/02/2026 - HackUDC"
-      url: "https://hackudc.gpul.org/"
-      icon: "https://gpul.org/_astro/logo-small.DA8wWUJz_Z1fdg8v.svg"
-      
+  links:     
     - text: "[DAFIC] 03-05/03/2026 - Feria de investigación"
       url: "https://dafic.org/actividades/assets/img/poster/cartel_feira_investigacion.png"
       icon: "https://dafic.org/assets/img/Logo_DAFIC_redondo.svg"
@@ -32,8 +28,12 @@ Destacado:
       url: "https://udcgal.sharepoint.com/:f:/s/Rep.EstudiantesFICsloestudiantes/EnjrP28jiWdOmtGDN5BxV2kBG0J0_Oe7LaWB3u59hMfGSQ?e=keOnQl"
       icon: "./assets/img/icons/pencil.svg"
 
-    - text: "[TFE] Premios Paula Montoto Castelao curso 2025/2026"
+    - text: "[TFE] Cátedra Denodo: Premios Paula Montoto Castelao curso 2025/2026"
       url: "https://udcgal.sharepoint.com/sites/catedra-denodo"
+      icon: "./assets/img/icons/award.svg"
+
+    - text: "[TFG] Cátedra Aldaba-WIB: I Premios ao mellor TFG"
+      url: "https://aldaba.es/media/epvkmztl/i_premios_mejor_tfg_aldabawib.pdf"
       icon: "./assets/img/icons/award.svg"
 
 FIC:
