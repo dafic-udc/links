@@ -6,12 +6,12 @@
 #      url: https://example.com
 #      icon: url-to-icon
 
-Eventos:
-  name: "📅 Eventos 📅"
-  links:     
-    - text: "[DAFIC] 03-05/03/2026 - Feria de investigación"
-      url: "https://dafic.org/actividades/assets/img/poster/cartel_feira_investigacion.png"
-      icon: "https://dafic.org/assets/img/Logo_DAFIC_redondo.svg"
+# Eventos:
+#   name: "📅 Eventos 📅"
+#   links:     
+#     - text: ""
+#       url: ""
+#       icon: ""
 
 Destacado:
   name: "⭐ Destacado ⭐"
