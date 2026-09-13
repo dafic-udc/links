@@ -24,7 +24,7 @@
 			<ul class="links">
 				{% for link in data[category].links %}
 				<li class="link">
-					<a href="{{ link.url }}" target="_blank">
+					<a href="{{ link.url }}" target="_blank" draggable="false">
 						<img class="link-icon" src="{{ link.icon }}" alt=" " draggable="false">
 						<span class="link-text">{{ link.text }}</span>
 					</a>
@@ -34,7 +34,9 @@
 		</section>
 		{% endfor %}
 
-		<a href="#" id="email"><img src="./assets/img/icons/mail.svg" alt="Email Icon"  draggable="false"></a>
+		<a href="#" id="email" draggable="false">
+			<img src="./assets/img/icons/mail.svg" alt="Email Icon" draggable="false">
+		</a>
 		<script src="./assets/js/protect_email.js"></script>
 
     </main>
