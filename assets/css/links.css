@@ -30,7 +30,7 @@
   color: #326e76;
 }
 
-.category .links li.link a:hover, .category .links li.link a:active, .category .links li.link a:focus {
+.category .links li.link a:hover, .category .links li.link a:active, .category .links li.link a:focus-visible {
   color: #142b2e;
   text-decoration: underline;
 }
@@ -66,6 +66,8 @@
     width: 30px;
     height: 30px;
     margin-right: 5px;
+    user-select: none;
+    pointer-events: none;
   }
   .category .links li.link a .link-text {
     padding-right: 25px;

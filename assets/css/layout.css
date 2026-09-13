@@ -27,6 +27,10 @@ body main {
   background: linear-gradient(to right, #57C785, #326E76);
 }
 
+body footer {
+  margin-bottom: 10px;
+}
+
 body footer a {
   color: white;
   text-decoration: underline;
@@ -36,6 +40,11 @@ body footer #qrcode {
   width: 150px;
   height: 150px;
   margin: 10px auto;
+  user-select: none;
+}
+
+body h1, body h2 {
+  width: 100%;
 }
 
 @media (max-width: 500px) {
