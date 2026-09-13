@@ -92,6 +92,8 @@ $img-spacing: 40px;
                         width: 30px;
                         height: 30px;
                         margin-right: 5px;
+                        user-select: none;
+                        pointer-events: none;
                     }
 
 

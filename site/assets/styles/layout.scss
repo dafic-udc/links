@@ -32,6 +32,8 @@ body {
     }
 
     footer {
+        margin-bottom: 10px;
+        
         a {
             color: white;
             text-decoration: underline;
@@ -41,7 +43,12 @@ body {
             width: 150px;
             height: 150px;
             margin: 10px auto;
+            user-select: none;
         }
+    }
+
+    h1,h2{
+        width: 100%;
     }
 }
 
