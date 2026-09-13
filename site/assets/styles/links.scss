@@ -41,7 +41,7 @@ $img-spacing: 40px;
 
                 &:hover,
                 &:active,
-                &:focus {
+                &:focus-visible {
                     color: darken($color-dafic, 20%);
                     text-decoration: underline;
                 }
