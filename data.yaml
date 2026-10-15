@@ -37,7 +37,7 @@ Destacado:
       url: "https://udcgal.sharepoint.com/sites/PATFICUDC/Documentos%20compartidos/Forms/AllItems.aspx"
       icon: "./assets/img/icons/info-circle.svg"
 
-    - text: "Repositorio de Exámenes"
+    - text: "Repositorio de Exámenes y Apuntes"
       url: "https://udcgal.sharepoint.com/:f:/s/Rep.EstudiantesFICsloestudiantes/EnjrP28jiWdOmtGDN5BxV2kBG0J0_Oe7LaWB3u59hMfGSQ?e=keOnQl"
       icon: "./assets/img/icons/pencil.svg"
 
